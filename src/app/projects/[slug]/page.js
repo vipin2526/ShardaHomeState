@@ -1,6 +1,7 @@
 "use client";
 import { useParams } from 'next/navigation';
 import { projectsData } from '../projectsData'; // You'll need to move projectsData to a separate file
+import Image from 'next/image';
 
 export default function ProjectDetail() {
   const { slug } = useParams();
@@ -16,7 +17,7 @@ export default function ProjectDetail() {
 
   return (
     <div className="max-w-4xl mx-auto p-8">
-      <img 
+      <Image 
         src={project.image} 
         alt={project.title} 
         className="w-full h-[400px] object-cover rounded-lg"

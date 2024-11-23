@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import '../../styles/Projects.css';
+import Image from 'next/image';
 
 export default function Projects() {
   const router = useRouter();
@@ -93,7 +94,7 @@ export default function Projects() {
               className="project-card flex-grow-0 flex-shrink-0 basis-[300px] cursor-pointer hover:shadow-lg transition-shadow"
               onClick={() => handleProjectClick(project)}
             >
-              <img src={project.image} alt={project.title} className="project-image" />
+              <Image src={project.image} alt={project.title} className="project-image" />
               <div className="project-info">
                 <h3>{project.title}</h3>
                 <p className="location">{project.location}</p>
