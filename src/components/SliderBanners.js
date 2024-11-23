@@ -7,12 +7,12 @@ export default function SliderBanners() {
 
   const slides = [
     {
-      image: 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6',
+      image: '/images/home1.jpg',
       title: 'Welcome to Sharda Home State',
       description: 'Discover your dream home with us'
     },
     {
-      image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750',
+      image: '/images/home2.jpg',
       title: 'Premium Properties',
       description: 'Luxury homes in prime locations'
     },
