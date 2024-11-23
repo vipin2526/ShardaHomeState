@@ -24,14 +24,12 @@ export default function SliderBanners() {
   ];
 
   useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentSlide((prevSlide) => 
-        prevSlide === slides.length - 1 ? 0 : prevSlide + 1
-      );
+    const interval = setInterval(() => {
+      setCurrentSlide((prevSlide) => (prevSlide + 1) % slides.length);
     }, 5000);
 
-    return () => clearInterval(timer);
-  }, []);
+    return () => clearInterval(interval);
+  }, [slides.length]);
 
   const nextSlide = () => {
     setCurrentSlide((prevSlide) => 

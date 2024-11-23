@@ -17,7 +17,7 @@ export default function About() {
                             Our Mission
                         </h2>
                         <p className="text-gray-600">
-                            At Sharda Home State, we are dedicated to helping individuals and families find their dream homes. With years of experience in the real estate industry, we understand that buying or selling a property is one of life's most significant decisions.
+                            At Sharda Home State, we are dedicated to helping individuals and families find their dream homes. With years of experience in the real estate industry, we understand that buying or selling a property is one of life&apos;s most significant decisions.
                         </p>
                     </div>
 
