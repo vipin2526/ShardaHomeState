@@ -7,12 +7,12 @@ export default function SliderBanners() {
 
   const slides = [
     {
-      image: '/images/home1.jpg',
-      title: 'Welcome to Sharda Home State',
+      image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750',
+      title: 'Welcome to Sharda Home State', 
       description: 'Discover your dream home with us'
     },
     {
-      image: '/images/home2.jpg',
+      image: 'https://images.unsplash.com/photo-1570129477492-45c003edd2be',
       title: 'Premium Properties',
       description: 'Luxury homes in prime locations'
     },
@@ -58,6 +58,7 @@ export default function SliderBanners() {
             fill
             style={{objectFit: 'cover'}}
             priority={index === 0}
+            
           />
           <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center text-white">
             <h2 className="text-4xl font-bold mb-4">{slide.title}</h2>

@@ -94,7 +94,14 @@ export default function Projects() {
               className="project-card flex-grow-0 flex-shrink-0 basis-[300px] cursor-pointer hover:shadow-lg transition-shadow"
               onClick={() => handleProjectClick(project)}
             >
-              <Image src={project.image} alt={project.title} className="project-image" />
+              <Image 
+                src={project.image} 
+                alt={project.title} 
+                width={300}
+                height={200}
+                className="project-image"
+                style={{ objectFit: "cover" }}
+              />
               <div className="project-info">
                 <h3>{project.title}</h3>
                 <p className="location">{project.location}</p>

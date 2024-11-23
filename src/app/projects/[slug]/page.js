@@ -21,6 +21,8 @@ export default function ProjectDetail() {
         src={project.image} 
         alt={project.title} 
         className="w-full h-[400px] object-cover rounded-lg"
+        width={1000}
+        height={1000}
       />
       <div className="mt-8">
         <h1 className="text-3xl font-bold">{project.title}</h1>
