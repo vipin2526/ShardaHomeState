@@ -4,7 +4,7 @@ export default function About() {
             <div className="container mx-auto px-4">
                 <div className="max-w-4xl mx-auto mb-16">
                     <h1 className="text-5xl font-bold mb-4 text-gray-900 text-center">
-                        About Sharda Home State
+                        About Sharda Home Estate
                     </h1>
                     <p className="text-xl text-gray-600 text-center">
                         Your trusted partner in finding the perfect home
@@ -17,7 +17,7 @@ export default function About() {
                             Our Mission
                         </h2>
                         <p className="text-gray-600">
-                            At Sharda Home State, we are dedicated to helping individuals and families find their dream homes. With years of experience in the real estate industry, we understand that buying or selling a property is one of life&apos;s most significant decisions.
+                            At Sharda Home Estate, we are dedicated to helping individuals and families find their dream homes. With years of experience in the real estate industry, we understand that buying or selling a property is one of life&apos;s most significant decisions.
                         </p>
                     </div>
 

@@ -8,7 +8,7 @@ export default function SliderBanners() {
   const slides = [
     {
       image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750',
-      title: 'Welcome to Sharda Home State', 
+      title: 'Welcome to Sharda Home Estate', 
       description: 'Discover your dream home with us'
     },
     {
